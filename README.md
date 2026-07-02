@@ -189,7 +189,7 @@ npm start
 
 ## Deploy to Vercel
 
-1. Push the repo to GitHub (include the `/data/` folder and `/public/epd/` folder — they are the data source).
+1. Push the repo to GitHub (include the `/data/` folder — extracted JSON is the app data source). `/public/epd/` is gitignored; run `npm run extract` locally if you need PDF provenance links.
 2. Import the repo in [Vercel](https://vercel.com).
 3. No environment variables needed for the deployed app (extraction is offline).
 4. Deploy — Vercel auto-detects Next.js.
