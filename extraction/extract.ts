@@ -150,7 +150,7 @@ async function extractEPD(pdfPath: string): Promise<EPD | null> {
   writeFileSync(outPath, JSON.stringify(epd, null, 2), "utf-8");
   console.log(`  ✓ Wrote ${outPath}`);
 
-  // Copy PDF to public/epd for provenance links
+  // Copy PDF to public/epd for local provenance links (gitignored — not pushed to GitHub)
   const publicPath = join(PUBLIC_EPD_DIR, fileName);
   copyFileSync(pdfPath, publicPath);
 
@@ -181,6 +181,8 @@ async function main() {
 
   console.log(`\n=== Extraction complete ===`);
   console.log(`Success: ${success}/${pdfFiles.length}`);
+  console.log(`JSON written to /data/ (committed to repo)`);
+  console.log(`PDF copies in /public/epd/ (local only — gitignored)`);
   if (failed > 0) {
     console.log(`Failed: ${failed} — check .raw.json files in /data for inspection`);
   }

@@ -4,24 +4,23 @@ A tool for comparing embodied carbon in concrete products, built from Environmen
 
 Every carbon figure is traceable to its source EPD. A value marked **Not reported** means data was not declared in the document — it is not zero.
 
-**Live demo:** [Deployed on Vercel](https://low-carbon-materials-hub.vercel.app) *(link added after deployment)*
-
+**Live demo:** [Deployed on Vercel](https://low-carbon-take-home.vercel.app/) 
 ---
 
 ## What it does
 
 **Compare table** (`/`)
-- Browse all 20 concrete products sorted by embodied carbon
-- Filter by product name, manufacturer, compressive strength (MPa range), manufacturing location, and low-carbon mixes
+- Browse all 20 concrete products — default sort is embodied carbon (A1–A3), or sort by compressive strength
+- Filter by search (product or manufacturer), compressive strength (MPa dropdown), and manufacturing location
 - See scope coverage at a glance — which products report delivery, installation, and end-of-life data
 - Tick any two products to launch a side-by-side comparison
 
 **Side-by-side comparison** (`/compare`)
-- Instant recommendation in plain English: which product produces less carbon, by how much, and why
-- **Project impact calculator** — select a project size (driveway, house slab, apartment floor, or custom m³) and see the total CO₂ for each product with everyday equivalencies: km driven in a petrol car, Sydney–Melbourne return flights, trees needed to offset it
-- **"If you use Product X…"** outcome cards for each product — what the strength grade means for your build, whether the low-carbon mix affects your site schedule, whether delivery emissions are included or hidden, and end-of-life recyclability
+- Plain-English recommendation: which product produces less carbon, by how much, and why
+- **Project impact calculator** — pick a project size (driveway, house slab, or custom m³) and see total CO₂ for each product with everyday equivalencies: km driven in a petrol car and Sydney–Melbourne return flights
+- Side-by-side product cards with key specs and scope coverage
 - Stage-by-stage carbon table showing every life-cycle module side by side with the difference column
-- Source traceability: EPD registration, operator, validity, and a link to the source PDF
+- Source traceability: EPD registration, operator, validity, and a link to the source PDF (local dev only — see Setup)
 
 **Product detail page** (`/product/[slug]`)
 - Full life-cycle bar charts for GWP-total, GWP-fossil, and GWP-biogenic — stage by stage
@@ -118,12 +117,12 @@ An active (coloured) pill means covered. A grey pill means not reported in that 
 ## Project structure
 
 ```
-/EPD/                     20 source EPD PDFs
-/data/                    Extracted JSON files (one per EPD) — committed to repo
+/EPD/                     20 source EPD PDFs (committed — used by extraction)
+/data/                    Extracted JSON files (one per EPD) — committed, app data source
 /extraction/
   schema.ts               Zod schema — the contract for every extracted EPD
   prompt.ts               System + user prompt for Claude Sonnet 4.6
-  extract.ts              Extraction script (run once, writes /data)
+  extract.ts              Extraction script (run once, writes /data and local PDF copies)
 /lib/
   data.ts                 Load and filter EPD data at build time
   types.ts                TypeScript types derived from Zod schema
@@ -135,15 +134,17 @@ An active (coloured) pill means covered. A grey pill means not reported in that 
   product/[slug]/         Product detail: life-cycle charts + outcomes + provenance
 /components/
   CompareTable.tsx        Filterable, sortable table with floating compare bar
-  FilterBar.tsx           Search, strength, location, and low-carbon filters
+  FilterBar.tsx           Search, strength (MPa), and location filters
   LifeCycleChart.tsx      CSS bar chart of GWP by life-cycle stage
   ImpactCalculator.tsx    Interactive project-size carbon calculator
   OutcomeCards.tsx        Plain-English outcome description cards
   GwpBadge.tsx            ND / NR / declared value display
   ScopeIcons.tsx          A1-A3 / A4 / A5 / C+D coverage pills
-/public/epd/              PDF copies for click-through provenance links
+/public/epd/              PDF copies for local provenance links (gitignored — not pushed)
 EXTRACTION.md             Written reasoning about the extraction strategy
 ```
+
+**What gets pushed to GitHub:** `/data/` JSON and `/EPD/` source PDFs. **`/public/epd/` is gitignored** — the extraction script still copies PDFs there for local "view source PDF" links, but they are not in the remote repo.
 
 ---
 
@@ -168,9 +169,11 @@ export ANTHROPIC_API_KEY="sk-ant-..."   # bash/zsh
 npm run extract
 ```
 
-This reads every PDF in `/EPD/`, calls Claude Sonnet 4.6 for each, validates the response against the Zod schema, and writes `/data/<slug>.json`. It also copies the PDFs to `/public/epd/` for provenance links.
+This reads every PDF in `/EPD/`, calls Claude Sonnet 4.6 for each, validates the response against the Zod schema, and writes `/data/<slug>.json`. It also copies PDFs to `/public/epd/` for local provenance links (that folder is gitignored and won't be pushed).
 
 Re-running skips already-extracted files. Delete a `.json` file in `/data/` to force re-extraction of that EPD.
+
+**You don't need to re-run extraction** to run or deploy the app — the extracted JSON in `/data/` is already committed. Re-run only if you add new PDFs or want to refresh local PDF links in `/public/epd/`.
 
 ### Step 2: Run the app
 ```bash
@@ -189,10 +192,12 @@ npm start
 
 ## Deploy to Vercel
 
-1. Push the repo to GitHub (include the `/data/` folder — extracted JSON is the app data source). `/public/epd/` is gitignored; run `npm run extract` locally if you need PDF provenance links.
+1. Push the repo to GitHub. The app reads from `/data/` at build time — no API key needed on Vercel.
 2. Import the repo in [Vercel](https://vercel.com).
 3. No environment variables needed for the deployed app (extraction is offline).
 4. Deploy — Vercel auto-detects Next.js.
+
+**Note:** "View source PDF" links point to `/public/epd/`, which is not deployed from GitHub. The live site still shows all carbon data and comparisons from `/data/`; only the PDF click-through requires running `npm run extract` locally.
 
 ---
 
@@ -220,10 +225,9 @@ See [EXTRACTION.md](EXTRACTION.md) for the full strategy, model choice, accuracy
 The plain-English verdict on the compare page (`lib/recommendation.ts`) follows this decision tree:
 
 1. **Can we compare?** If either product is missing A1–A3 GWP data, we say so clearly rather than guessing.
-2. **Same strength?** If the two products differ by 5+ MPa, the recommendation flags this — a weaker mix will almost always show lower carbon but can't do the same structural job.
-3. **Close enough to be a tie?** If the difference is within 3% (inside the uncertainty range of LCA measurements), we call it a tie and recommend choosing on price, location, or lead time instead.
-4. **Clear winner?** We name it, state the saving in kg CO₂/m³ and as a percentage, contextualise it (kg saved per truck-load, petrol car km equivalent), and note whether the winner uses a low-carbon mix and how high its plant-specific data percentage is.
-5. **Honest caveats always.** Scope mismatches (one EPD reports more stages) and different program operators are flagged so the user isn't misled by a seemingly clear difference.
+2. **Same strength?** If the two products differ by 5+ MPa, a caveat flags this — a weaker mix often shows lower carbon but may not suit the same structural job.
+3. **Close enough to be a tie?** If the difference is within 3% (normal LCA measurement uncertainty), we call it a tie and recommend choosing on price, location, or lead time instead.
+4. **Clear winner?** We name the lower-carbon product, state the saving in kg CO₂/m³ and as a percentage (relative to the higher-carbon product).
 
 The impact calculator (`lib/outcomes.ts`) uses these equivalencies:
 
@@ -231,8 +235,6 @@ The impact calculator (`lib/outcomes.ts`) uses these equivalencies:
 |---|---|---|
 | Petrol car emissions | 0.21 kg CO₂/km | Australian average |
 | Sydney–Melbourne return flight | 150 kg CO₂/person | Common LCA reference |
-| Mature tree absorption | 22 kg CO₂/year | Conservative estimate |
-| Australian household footprint | 6,800 kg CO₂/year | Australian average |
 
 ---
 
