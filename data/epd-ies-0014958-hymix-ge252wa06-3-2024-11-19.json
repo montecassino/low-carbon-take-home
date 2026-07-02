@@ -1,0 +1,271 @@
+{
+  "source": {
+    "file_name": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+    "epd_registration_number": "EPD-IES-0014958:001",
+    "program_operator": "EPD International AB / EPD Australasia",
+    "pcr": "CEN standard EN 15804:A2 (PCR 2019:14 Construction Products, Version 1.3.4) as core PCR; Environdec c-PCR-003 Concrete, concrete elements (EN 16757:2023) as sub-PCR",
+    "reference_standard": "EN 15804:A2, ISO 14025",
+    "publication_date": "2024-11-19",
+    "valid_until": "2029-11-19",
+    "geographical_scope": "Queensland - Gold Coast, Australia",
+    "verification": "external",
+    "scope_description": "A1-A3 + A4-A5 + B1-B7 + C1-C4 + D, cradle-to-grave",
+    "impact_table_page_refs": "page 19"
+  },
+  "manufacturer": {
+    "name": "Hymix Australia Pty Ltd",
+    "plant_address": "4 Bailey Crescent",
+    "plant_city": "Southport",
+    "plant_state": "QLD",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "HyLo-50 Normal-Class 25 MPa",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 25,
+    "compressive_strength_class": "Normal-Class 25 MPa",
+    "strength_age_days": 28,
+    "exposure_class": "A1 & A2 (AS 3600:2018)",
+    "application": "General",
+    "product_standards": [
+      "AS 3600:2018"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 m³ of concrete",
+    "mass_kg": 2315,
+    "a1_a3_specific_data_pct": 81
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 141
+      },
+      "A4": {
+        "status": "declared",
+        "value": 4.95
+      },
+      "A5": {
+        "status": "declared",
+        "value": 10.7
+      },
+      "B1": {
+        "status": "declared",
+        "value": -3.28
+      },
+      "B2": {
+        "status": "declared",
+        "value": 0
+      },
+      "B3": {
+        "status": "declared",
+        "value": 0
+      },
+      "B4": {
+        "status": "declared",
+        "value": 0
+      },
+      "B5": {
+        "status": "declared",
+        "value": 0
+      },
+      "B6": {
+        "status": "declared",
+        "value": 0
+      },
+      "B7": {
+        "status": "declared",
+        "value": 0
+      },
+      "C1": {
+        "status": "declared",
+        "value": 9.64
+      },
+      "C2": {
+        "status": "declared",
+        "value": 10.1
+      },
+      "C3": {
+        "status": "declared",
+        "value": 4.44
+      },
+      "C4": {
+        "status": "declared",
+        "value": 3.19
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.1
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 141
+      },
+      "A4": {
+        "status": "declared",
+        "value": 4.95
+      },
+      "A5": {
+        "status": "declared",
+        "value": 10.7
+      },
+      "B1": {
+        "status": "declared",
+        "value": -3.28
+      },
+      "B2": {
+        "status": "declared",
+        "value": 0
+      },
+      "B3": {
+        "status": "declared",
+        "value": 0
+      },
+      "B4": {
+        "status": "declared",
+        "value": 0
+      },
+      "B5": {
+        "status": "declared",
+        "value": 0
+      },
+      "B6": {
+        "status": "declared",
+        "value": 0
+      },
+      "B7": {
+        "status": "declared",
+        "value": 0
+      },
+      "C1": {
+        "status": "declared",
+        "value": 9.63
+      },
+      "C2": {
+        "status": "declared",
+        "value": 10
+      },
+      "C3": {
+        "status": "declared",
+        "value": 4.42
+      },
+      "C4": {
+        "status": "declared",
+        "value": 3.19
+      },
+      "D": {
+        "status": "declared",
+        "value": -13
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 0.027
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.000893
+      },
+      "A5": {
+        "status": "declared",
+        "value": 0.00678
+      },
+      "B1": {
+        "status": "declared",
+        "value": 0
+      },
+      "B2": {
+        "status": "declared",
+        "value": 0
+      },
+      "B3": {
+        "status": "declared",
+        "value": 0
+      },
+      "B4": {
+        "status": "declared",
+        "value": 0
+      },
+      "B5": {
+        "status": "declared",
+        "value": 0
+      },
+      "B6": {
+        "status": "declared",
+        "value": 0
+      },
+      "B7": {
+        "status": "declared",
+        "value": 0
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000857
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00215
+      },
+      "C3": {
+        "status": "declared",
+        "value": 0.00349
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0.000861
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.016
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 141,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "This is a generic EPD using averaged data across three Gold Coast plants (Labrador, Stapylton, Burleigh). Production is assumed equal across all plants. The EPD uses PCR 2019:14 (EN 15804:A2) and the GCCA Industry EPD Tool V5.0. Full cradle-to-grave scope including modules B and C is declared, so A1-A3 results alone should not be used without considering Module C results. B1 includes recarbonation credit (-3.28 kg CO2 eq./m³). Reference year is 2023. The HyLo-50 product name indicates a lower-carbon mix (50% SCM replacement level)."
+  }
+}

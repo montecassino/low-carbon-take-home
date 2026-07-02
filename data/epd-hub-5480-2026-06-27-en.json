@@ -1,0 +1,272 @@
+{
+  "source": {
+    "file_name": "EPD_HUB-5480_2026-06-27_en.pdf",
+    "epd_registration_number": "HUB-5480",
+    "program_operator": "EPD Hub",
+    "pcr": "EPD Hub Core PCR version 1.2, 24 Mar 2025",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "publication_date": "20.02.2026",
+    "valid_until": "19.02.2031",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+    "impact_table_page_refs": "page 9"
+  },
+  "manufacturer": {
+    "name": "Tandy Concrete",
+    "plant_address": "21 Mackay Slade Point Road",
+    "plant_city": "Mackay",
+    "plant_state": "Queensland",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "ATILTS4020100Enhanced",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 40,
+    "compressive_strength_class": "S40",
+    "strength_age_days": 28,
+    "exposure_class": "B2",
+    "application": "Tilt Up Panels",
+    "product_standards": [
+      "EN 206",
+      "AS 1379"
+    ],
+    "is_low_carbon_mix": false
+  },
+  "declared_unit": {
+    "unit": "1 cubic meter",
+    "mass_kg": 2408,
+    "a1_a3_specific_data_pct": 99
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "declared",
+        "value": 259
+      },
+      "A2": {
+        "status": "declared",
+        "value": 17.7
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.39
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 280
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.85
+      },
+      "A5": {
+        "status": "declared",
+        "value": 16.6
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.58
+      },
+      "C2": {
+        "status": "declared",
+        "value": 13
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.38
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.51
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.5
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "declared",
+        "value": 259
+      },
+      "A2": {
+        "status": "declared",
+        "value": 17.7
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.39
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 280
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.85
+      },
+      "A5": {
+        "status": "declared",
+        "value": 16.6
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.58
+      },
+      "C2": {
+        "status": "declared",
+        "value": 13
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.38
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.51
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.5
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "declared",
+        "value": -0.0332
+      },
+      "A2": {
+        "status": "declared",
+        "value": 0.00829
+      },
+      "A3": {
+        "status": "declared",
+        "value": 0.000375
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": -0.0246
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.000646
+      },
+      "A5": {
+        "status": "declared",
+        "value": 0.0000564
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000467
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00294
+      },
+      "C3": {
+        "status": "declared",
+        "value": -0.000753
+      },
+      "C4": {
+        "status": "declared",
+        "value": -0.00143
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.0424
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 280,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "This EPD uses EPD Hub Core PCR version 1.2 (24 Mar 2025) and JRC characterization factors EF 3.1. It is product- and factory-specific (single plant, Mackay QLD). The scope includes A1-A3, A4, A5, C1-C4, and D; B1-B7 are not declared (ND). Comparisons should only be made with EPDs using the same PCR and EN 15804+A2 standard and within a building context."
+  }
+}

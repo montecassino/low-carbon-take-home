@@ -1,0 +1,273 @@
+{
+  "source": {
+    "file_name": "EPD-IES-0014769_P252080.pdf",
+    "epd_registration_number": "EPD-IES-0014769:001",
+    "program_operator": "EPD International AB / EPD Australasia",
+    "pcr": "CEN standard EN 15804:A2 (PCR 2019:14 Construction Products, Version 1.3.4); Environdec c-PCR-003 Concrete, concrete elements (EN 16757:2023)",
+    "reference_standard": "ISO 14025 and EN 15804:A2",
+    "publication_date": "2024-08-26",
+    "valid_until": "2029-08-26",
+    "geographical_scope": "Queensland - Brisbane",
+    "verification": "external",
+    "scope_description": "A1-A3 + A4-A5 + B1-B7 + C1-C4 + D, cradle-to-grave",
+    "impact_table_page_refs": "page 21"
+  },
+  "manufacturer": {
+    "name": "Hanson Construction Materials Pty Ltd",
+    "plant_address": "L14, 35 Clarence St",
+    "plant_city": "Brisbane",
+    "plant_state": "QLD",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "P252080",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 25,
+    "compressive_strength_class": "25 MPa",
+    "strength_age_days": 28,
+    "exposure_class": null,
+    "application": "General use",
+    "product_standards": [
+      "EN 15804:A2",
+      "EN 16757:2023",
+      "AS 3600:2018"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 m³ of concrete",
+    "mass_kg": 2480,
+    "a1_a3_specific_data_pct": null
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 127
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.45
+      },
+      "A5": {
+        "status": "declared",
+        "value": 9.95
+      },
+      "B1": {
+        "status": "declared",
+        "value": -2.65
+      },
+      "B2": {
+        "status": "declared",
+        "value": 0
+      },
+      "B3": {
+        "status": "declared",
+        "value": 0
+      },
+      "B4": {
+        "status": "declared",
+        "value": 0
+      },
+      "B5": {
+        "status": "declared",
+        "value": 0
+      },
+      "B6": {
+        "status": "declared",
+        "value": 0
+      },
+      "B7": {
+        "status": "declared",
+        "value": 0
+      },
+      "C1": {
+        "status": "declared",
+        "value": 8.99
+      },
+      "C2": {
+        "status": "declared",
+        "value": 8.85
+      },
+      "C3": {
+        "status": "declared",
+        "value": 5.24
+      },
+      "C4": {
+        "status": "declared",
+        "value": 2.79
+      },
+      "D": {
+        "status": "declared",
+        "value": 6.14
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 126
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.45
+      },
+      "A5": {
+        "status": "declared",
+        "value": 9.94
+      },
+      "B1": {
+        "status": "declared",
+        "value": -2.65
+      },
+      "B2": {
+        "status": "declared",
+        "value": 0
+      },
+      "B3": {
+        "status": "declared",
+        "value": 0
+      },
+      "B4": {
+        "status": "declared",
+        "value": 0
+      },
+      "B5": {
+        "status": "declared",
+        "value": 0
+      },
+      "B6": {
+        "status": "declared",
+        "value": 0
+      },
+      "B7": {
+        "status": "declared",
+        "value": 0
+      },
+      "C1": {
+        "status": "declared",
+        "value": 8.99
+      },
+      "C2": {
+        "status": "declared",
+        "value": 8.84
+      },
+      "C3": {
+        "status": "declared",
+        "value": 5.21
+      },
+      "C4": {
+        "status": "declared",
+        "value": 2.79
+      },
+      "D": {
+        "status": "declared",
+        "value": 6.11
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 0.0462
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.000959
+      },
+      "A5": {
+        "status": "declared",
+        "value": 0.00435
+      },
+      "B1": {
+        "status": "declared",
+        "value": 0
+      },
+      "B2": {
+        "status": "declared",
+        "value": 0
+      },
+      "B3": {
+        "status": "declared",
+        "value": 0
+      },
+      "B4": {
+        "status": "declared",
+        "value": 0
+      },
+      "B5": {
+        "status": "declared",
+        "value": 0
+      },
+      "B6": {
+        "status": "declared",
+        "value": 0
+      },
+      "B7": {
+        "status": "declared",
+        "value": 0
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.0016
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00632
+      },
+      "C3": {
+        "status": "declared",
+        "value": 0.0189
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0.00184
+      },
+      "D": {
+        "status": "declared",
+        "value": 0.0189
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 127,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "This is a project-specific EPD for the Hutchinson Builders - Aliro Warehouse project in Brisbane, Queensland. It is produced using GCCA's Industry EPD Tool v4.2. The product is a low-carbon mix (P252080) with a 63% CO2 reduction compared to the simulated baseline. The CO2 reduction baseline is based on Hanson's own simulated baseline using the Green Star Mat-4 Concrete Credit User Guide (2012), not an industry-standard benchmark. EPDs from different programmes or using different PCR versions may not be directly comparable. B1 value is -2.65 kg CO2 eq. representing carbonation (recarbonation) during use stage. Module D value is positive (6.14) which reflects end-of-life scenarios for this product. Reference year is 2023."
+  }
+}

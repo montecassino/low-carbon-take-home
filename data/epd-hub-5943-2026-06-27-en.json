@@ -1,0 +1,271 @@
+{
+  "source": {
+    "file_name": "EPD_HUB-5943_2026-06-27_en.pdf",
+    "epd_registration_number": "HUB-5943",
+    "program_operator": "EPD Hub",
+    "pcr": "EPD Hub Core PCR version 1.2, 24 Mar 2025",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "publication_date": "09.04.2026",
+    "valid_until": "08.04.2031",
+    "geographical_scope": "Hunter Valley, NSW, Australia",
+    "verification": "external",
+    "scope_description": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+    "impact_table_page_refs": "page 8"
+  },
+  "manufacturer": {
+    "name": "Entire Concrete",
+    "plant_address": "65 Stenhouse Drive",
+    "plant_city": "Cameron Park",
+    "plant_state": "New South Wales",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "N50/20 Xencrete",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 50,
+    "compressive_strength_class": "N50",
+    "strength_age_days": 28,
+    "exposure_class": "C1",
+    "application": "General use concrete",
+    "product_standards": [
+      "AS 1379-2007"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 cubic meter",
+    "mass_kg": 2272,
+    "a1_a3_specific_data_pct": 2.7
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "declared",
+        "value": 270
+      },
+      "A2": {
+        "status": "declared",
+        "value": 36.1
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.65
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 310
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.91
+      },
+      "A5": {
+        "status": "declared",
+        "value": 17.5
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.32
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.2
+      },
+      "C3": {
+        "status": "declared",
+        "value": 6.96
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.26
+      },
+      "D": {
+        "status": "declared",
+        "value": -11.7
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "declared",
+        "value": 270
+      },
+      "A2": {
+        "status": "declared",
+        "value": 36.1
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.65
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 309
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.91
+      },
+      "A5": {
+        "status": "declared",
+        "value": 17.4
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.32
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.2
+      },
+      "C3": {
+        "status": "declared",
+        "value": 6.96
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.25
+      },
+      "D": {
+        "status": "declared",
+        "value": -11.7
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "declared",
+        "value": 0.103
+      },
+      "A2": {
+        "status": "declared",
+        "value": 0.00743
+      },
+      "A3": {
+        "status": "declared",
+        "value": 0.000612
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 0.111
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.000659
+      },
+      "A5": {
+        "status": "declared",
+        "value": 0.00413
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000441
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00277
+      },
+      "C3": {
+        "status": "declared",
+        "value": -0.00071
+      },
+      "C4": {
+        "status": "declared",
+        "value": -0.00135
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.0367
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 310,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "This EPD uses EPD Hub Core PCR version 1.2 (24 Mar 2025) and JRC characterisation factors EF 3.1. Scope is cradle-to-gate with options (A1-A3, A4, A5, C1-C4, D). EPDs using different PCRs (e.g. PCR 2019:14) or different characterisation factors may not be directly comparable. Data represents the production-weighted average of two plants (Cameron Park and Singleton); variation in GWP-fossil A1-A3 is stated as -0.6%/+0.6%. The product name 'Xencrete' indicates a lower-carbon mix incorporating a CEMI additive to enable greater flyash use. A1-A3 specific data percentage is only 2.7%, meaning the majority of data is generic."
+  }
+}

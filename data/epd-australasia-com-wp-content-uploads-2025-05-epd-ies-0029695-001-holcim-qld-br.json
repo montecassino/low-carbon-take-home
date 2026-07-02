@@ -1,0 +1,272 @@
+{
+  "source": {
+    "file_name": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+    "epd_registration_number": "EPD-IES-0029695:001",
+    "program_operator": "EPD International AB / EPD Australasia Limited",
+    "pcr": "PCR 2019:14 Construction Products, Version 2.0.1, 2025-06-05; c-PCR-003 Concrete and Concrete Elements, 2025-04-08",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021",
+    "publication_date": "2026-04-15",
+    "valid_until": "2031-04-15",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle to gate (A1-A3) with options: modules A4-A5, modules C1-C4 and module D. B1-B7 not declared (ND).",
+    "impact_table_page_refs": "page 16"
+  },
+  "manufacturer": {
+    "name": "Holcim (Australia) Pty Ltd",
+    "plant_address": "Level 40, Northpoint Tower, 100 Miller St",
+    "plant_city": "Brisbane (multiple sites: Brisbane City, Acacia Ridge, Beaudesert, Beenleigh, Boonah, Darra, Cleveland, Geebung, Narangba, Wacol, Murarrie, Caboolture, Brendale, Raceview)",
+    "plant_state": "QLD",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "QLD - Brisbane - ECOPact - QE252M100 - S25/20/100 Ecopact Concrete - General use",
+    "concrete_type": "Special-class ready-mix concrete (ECOPact low-carbon)",
+    "compressive_strength_mpa": 25,
+    "compressive_strength_class": "S25/20/100",
+    "strength_age_days": null,
+    "exposure_class": null,
+    "application": "General use",
+    "product_standards": [
+      "AS 1379",
+      "AS 3600"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 m3 of ready-mix concrete",
+    "mass_kg": 2319,
+    "a1_a3_specific_data_pct": 17.3
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 146
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.58
+      },
+      "A5": {
+        "status": "declared",
+        "value": 12.9
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.522
+      },
+      "C2": {
+        "status": "declared",
+        "value": 4.31
+      },
+      "C3": {
+        "status": "declared",
+        "value": 10.4
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0
+      },
+      "D": {
+        "status": "declared",
+        "value": -18.5
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 145
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.58
+      },
+      "A5": {
+        "status": "declared",
+        "value": 12.8
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.522
+      },
+      "C2": {
+        "status": "declared",
+        "value": 4.31
+      },
+      "C3": {
+        "status": "declared",
+        "value": 10.3
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0
+      },
+      "D": {
+        "status": "declared",
+        "value": -18.5
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 0.822
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.0000896
+      },
+      "A5": {
+        "status": "declared",
+        "value": 0.0299
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.0000223
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00015
+      },
+      "C3": {
+        "status": "declared",
+        "value": 0.00865
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.015
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 146,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "This EPD uses EPD Australasia / International EPD System format with aggregate A1-A3 only (A1, A2, A3 not separately reported). The EPD covers multiple production sites across Brisbane QLD (14 sites), so results represent a site-average. Plant data is from 2022 and mix/materials data from 2026, which may affect comparability with EPDs using a single reference year. PCR 2019:14 v2.0.1 (2025) is used — comparisons should ensure the same PCR version. The product is an ECOPact low-carbon mix; comparisons should be made only with functionally equivalent concrete products."
+  }
+}

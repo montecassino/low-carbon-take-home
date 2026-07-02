@@ -1,0 +1,272 @@
+{
+  "source": {
+    "file_name": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+    "epd_registration_number": "EPD-IES-0009353:003",
+    "program_operator": "EPD International AB / EPD Australasia",
+    "pcr": "PCR 2019:14 Construction Products, version 1.11, 2021-02-05; c-PCR-003: Product Category Rules for Concrete and Concrete Elements (EN 16757) 2019-12-20",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021",
+    "publication_date": "2026-05-04",
+    "valid_until": "2028-07-31",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle-to-gate with modules C1–C4 and module D. Includes production stage (A1-A3), end-of-life (C1-C4), and recovery potential (D). Modules A4, A5 and B1-B7 are not declared.",
+    "impact_table_page_refs": "pages 20-21, 30-31, 36-39, 56-57, 62-63, 68-69"
+  },
+  "manufacturer": {
+    "name": "Hallett Group Pty Ltd",
+    "plant_address": "126 Churchill Rd North",
+    "plant_city": "Dry Creek",
+    "plant_state": "SA",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "Ready Mix Concrete Products",
+    "concrete_type": "Ready Mix Concrete",
+    "compressive_strength_mpa": null,
+    "compressive_strength_class": "Multiple grades: 10, 15, 20, 25, 32, 40, 50, 65, 80 MPa",
+    "strength_age_days": 28,
+    "exposure_class": null,
+    "application": "Infrastructure, commercial buildings, and residential buildings including slabs, footings, driveways, paths, industrial floors, and structural applications",
+    "product_standards": [
+      "EN 15804:2012+A2:2019/AC:2021",
+      "EN 16757:2017"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 m3 of Ready Mix concrete at the batching plant gate",
+    "mass_kg": null,
+    "a1_a3_specific_data_pct": 5
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 344
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 14.8
+      },
+      "C2": {
+        "status": "declared",
+        "value": 5.96
+      },
+      "C3": {
+        "status": "declared",
+        "value": 5.02
+      },
+      "C4": {
+        "status": "declared",
+        "value": 8.45
+      },
+      "D": {
+        "status": "declared",
+        "value": -11.6
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 340
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 14.8
+      },
+      "C2": {
+        "status": "declared",
+        "value": 5.7
+      },
+      "C3": {
+        "status": "declared",
+        "value": 4.99
+      },
+      "C4": {
+        "status": "declared",
+        "value": 8.44
+      },
+      "D": {
+        "status": "declared",
+        "value": -11.5
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 3.51
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.0102
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.256
+      },
+      "C3": {
+        "status": "declared",
+        "value": 0.0122
+      },
+      "C4": {
+        "status": "declared",
+        "value": -0.00187
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.0493
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 344,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": false,
+    "scope_covers_installation": false,
+    "comparability_notes": "This EPD covers multiple products across five batching plants in South Australia (Dry Creek, Elizabeth, Mile End, McLaren Vale, Osborne). GWP values vary significantly by product and plant — e.g. N3220P Ref ranges from 334 (Mile End) to 349 (Elizabeth) kg CO2-eq/m3. The headline GWP reported here is for N3220P Ref (32 MPa reference mix) at Dry Creek plant (344 kg CO2-eq/m3) as a representative value. A1-A3 specific data is only 5-26% (cements were excluded from specific data in this version due to proxy dataset use). PCR 2019:14 v1.11. Modules A4, A5, B1-B7 are not declared. End-of-life results (C1-C4+D) are based on a representative mix density of 2,332 kg/m3 and must be scaled linearly for other densities. Multiple Enviro Construct low-carbon mix variants are included alongside standard reference mixes."
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "source": {
+    "file_name": "epd-ies-0021165-sn252f100.pdf",
+    "epd_registration_number": "EPD-IES-0021165",
+    "program_operator": "EPD International AB",
+    "pcr": "PCR 2019:14 Construction Products, Version 1.3.4; C-PCR 003 Concrete and concrete elements (EN 16757), Version 2019-12-20",
+    "reference_standard": "EN 15804+A2:2019",
+    "publication_date": "2025-03-13",
+    "valid_until": "2030-03-13",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle-to-gate with options for modules A4, A5, C1–C4 and D. Use stage modules B1–B7 are not declared.",
+    "impact_table_page_refs": "page 32"
+  },
+  "manufacturer": {
+    "name": "Adbri Limited",
+    "plant_address": "Level 4, 151 Pirie Street",
+    "plant_city": "Adelaide",
+    "plant_state": "SA",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "SN252F100 – Futurecrete Normal Class GL Slag 25 MPa",
+    "concrete_type": "Ready-mixed concrete (Futurecrete lower carbon, GL cement + slag)",
+    "compressive_strength_mpa": 25,
+    "compressive_strength_class": "25 MPa",
+    "strength_age_days": 28,
+    "exposure_class": null,
+    "application": "General construction; lower carbon concrete for residential and non-residential projects in South Australia",
+    "product_standards": [
+      "AS 1379"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 m³ of manufactured concrete",
+    "mass_kg": null,
+    "a1_a3_specific_data_pct": null
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 143.73
+      },
+      "A4": {
+        "status": "declared",
+        "value": 9.64
+      },
+      "A5": {
+        "status": "declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": null
+      },
+      "C2": {
+        "status": "declared",
+        "value": null
+      },
+      "C3": {
+        "status": "declared",
+        "value": null
+      },
+      "C4": {
+        "status": "declared",
+        "value": null
+      },
+      "D": {
+        "status": "declared",
+        "value": null
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 143.73
+      },
+      "A4": {
+        "status": "declared",
+        "value": 9.64
+      },
+      "A5": {
+        "status": "declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": null
+      },
+      "C2": {
+        "status": "declared",
+        "value": null
+      },
+      "C3": {
+        "status": "declared",
+        "value": null
+      },
+      "C4": {
+        "status": "declared",
+        "value": null
+      },
+      "D": {
+        "status": "declared",
+        "value": null
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 0.113
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0
+      },
+      "A5": {
+        "status": "declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": null
+      },
+      "C2": {
+        "status": "declared",
+        "value": null
+      },
+      "C3": {
+        "status": "declared",
+        "value": null
+      },
+      "C4": {
+        "status": "declared",
+        "value": null
+      },
+      "D": {
+        "status": "declared",
+        "value": null
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 143.73,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "This EPD covers multiple production sites across South Australia (10 plants) averaged together — results may not represent any single plant. Foreground data is from FY2020-2021, which may not reflect current production. B1–B7 use-stage modules are not declared. The EPD uses PCR 2019:14 v1.3.4 with C-PCR 003 (EN 16757); EPDs using different PCR versions or programmes may not be comparable. GWP values for individual C-stage modules and A5 are declared in scope but numeric values were not legible from the tables provided in the document (only A1–A3 and A4 totals are clearly tabulated). The product is a Futurecrete lower-carbon mix using GL cement + slag, which significantly reduces GWP compared to standard GP cement mixes."
+  }
+}

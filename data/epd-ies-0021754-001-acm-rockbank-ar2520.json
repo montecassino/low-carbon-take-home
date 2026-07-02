@@ -1,0 +1,271 @@
+{
+  "source": {
+    "file_name": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+    "epd_registration_number": "EPD-IES-0021754:001",
+    "program_operator": "EPD International AB / EPD Australasia Limited",
+    "pcr": "PCR 2019:14 Construction Products, Version 2.0.1, 2025-06-05; c-PCR-003 Concrete and concrete elements, version 2025-04-08",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021",
+    "publication_date": "2025-08-15",
+    "valid_until": "2030-08-15",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle-to-gate with modules C1-C4, D. Modules A1-A3 (product stage) and C1-C4 (end-of-life) and D (resource recovery) are declared. Modules A4, A5 (construction stage) and B1-B7 (use stage) are not declared.",
+    "impact_table_page_refs": "page 16"
+  },
+  "manufacturer": {
+    "name": "Aurora Construction Materials Epping Pty Ltd (Aurora)",
+    "plant_address": "2-50 Meskos Road",
+    "plant_city": "Rockbank",
+    "plant_state": "VIC",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "AR2520 pre-mixed concrete",
+    "concrete_type": "Ready-mix / pre-mixed concrete",
+    "compressive_strength_mpa": 25,
+    "compressive_strength_class": "25MPa",
+    "strength_age_days": null,
+    "exposure_class": null,
+    "application": "General use concrete",
+    "product_standards": [
+      "AS 1379:2007"
+    ],
+    "is_low_carbon_mix": false
+  },
+  "declared_unit": {
+    "unit": "1 m³ of pre-mixed concrete",
+    "mass_kg": 2270,
+    "a1_a3_specific_data_pct": 36
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 140
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 12
+      },
+      "C2": {
+        "status": "declared",
+        "value": 14.5
+      },
+      "C3": {
+        "status": "declared",
+        "value": 8.03
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0.861
+      },
+      "D": {
+        "status": "declared",
+        "value": -9.79
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 140
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 12
+      },
+      "C2": {
+        "status": "declared",
+        "value": 14.5
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.82
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0.861
+      },
+      "D": {
+        "status": "declared",
+        "value": -9.77
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A2": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A3": {
+        "status": "not_separately_reported",
+        "value": null
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": -0.24
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000797
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.000898
+      },
+      "C3": {
+        "status": "declared",
+        "value": 0.209
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0.0000695
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.0192
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 140,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": false,
+    "scope_covers_installation": false,
+    "comparability_notes": "This EPD is declared under PCR 2019:14 v2.0.1 (2025-06-05) and c-PCR-003 (2025-04-08). EPDs using earlier PCR versions (pre-v1.3) may use different GWP characterisation factors (IPCC AR6 with indirect radiative forcing vs IPCC AR5), which results in numerically different GWP-total values and limits direct comparability. Modules A4, A5 and B1-B7 are not declared; comparisons should be restricted to A1-A3 scope. The EPD covers a single plant at Rockbank, Victoria. The end-of-life scenario uses default PCR values (84% recycling, 16% landfill) based on Victorian NWR 2022 data. GWP-biogenic for A1-A3 is negative (-0.24 kg CO2-eq) due to proxy admixture data containing biogenic carbon."
+  }
+}

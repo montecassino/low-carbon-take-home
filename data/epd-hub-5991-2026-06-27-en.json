@@ -1,0 +1,271 @@
+{
+  "source": {
+    "file_name": "EPD_HUB-5991_2026-06-27_en.pdf",
+    "epd_registration_number": "HUB-5991",
+    "program_operator": "EPD Hub",
+    "pcr": "EPD Hub Core PCR version 1.2, 24 Mar 2025",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "publication_date": "2026-04-15",
+    "valid_until": "2031-04-14",
+    "geographical_scope": "Australia (Hunter Valley, NSW)",
+    "verification": "external",
+    "scope_description": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+    "impact_table_page_refs": "page 8"
+  },
+  "manufacturer": {
+    "name": "Entire Concrete",
+    "plant_address": "Entire – VWA Plant",
+    "plant_city": "Hunter Valley",
+    "plant_state": "NSW",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "N40/20 Xencrete",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 40,
+    "compressive_strength_class": "N40",
+    "strength_age_days": 28,
+    "exposure_class": "B1",
+    "application": "General use concrete",
+    "product_standards": [
+      "AS 1379-2007"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 cubic meter",
+    "mass_kg": 2306,
+    "a1_a3_specific_data_pct": 1.6
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "declared",
+        "value": 235
+      },
+      "A2": {
+        "status": "declared",
+        "value": 34.2
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.71
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 273
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.96
+      },
+      "A5": {
+        "status": "declared",
+        "value": 16.4
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.39
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.4
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.06
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.32
+      },
+      "D": {
+        "status": "declared",
+        "value": -11.9
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "declared",
+        "value": 235
+      },
+      "A2": {
+        "status": "declared",
+        "value": 34.2
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.71
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 273
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.95
+      },
+      "A5": {
+        "status": "declared",
+        "value": 16.4
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.39
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.4
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.06
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.32
+      },
+      "D": {
+        "status": "declared",
+        "value": -11.8
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "declared",
+        "value": 0.095
+      },
+      "A2": {
+        "status": "declared",
+        "value": 0.00711
+      },
+      "A3": {
+        "status": "declared",
+        "value": 0.000621
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 0.103
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.000669
+      },
+      "A5": {
+        "status": "declared",
+        "value": 0.00388
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000448
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00281
+      },
+      "C3": {
+        "status": "declared",
+        "value": -0.000721
+      },
+      "C4": {
+        "status": "declared",
+        "value": -0.00137
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.0371
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 273,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "EPD uses EPD Hub Core PCR version 1.2 (2025) which may differ from other PCR versions (e.g. PCR 2019:14 used by EPD Australasia / International EPD System). The declared results represent a production-weighted average of two manufacturing sites (Cameron Park and Singleton). Full module breakdown (A1, A2, A3 individually) is provided. B1-B7 are not declared. Carbonation is not taken into account. A1-A3 specific data percentage is only 1.6%, indicating heavy reliance on generic data."
+  }
+}

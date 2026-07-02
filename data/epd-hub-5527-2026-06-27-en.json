@@ -1,0 +1,272 @@
+{
+  "source": {
+    "file_name": "EPD_HUB-5527_2026-06-27_en.pdf",
+    "epd_registration_number": "HUB-5527",
+    "program_operator": "EPD Hub",
+    "pcr": "EPD Hub Core PCR version 1.2, 24 Mar 2025",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "publication_date": "2026-02-25",
+    "valid_until": "2031-02-24",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+    "impact_table_page_refs": "page 9"
+  },
+  "manufacturer": {
+    "name": "Tandy Concrete",
+    "plant_address": "11 McIntosh Drive",
+    "plant_city": "Airlie Beach",
+    "plant_state": "Queensland",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "CTILTS4020100Enhanced",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 40,
+    "compressive_strength_class": "S40",
+    "strength_age_days": 28,
+    "exposure_class": "B2",
+    "application": "Tilt Up Panels",
+    "product_standards": [
+      "EN 206",
+      "AS 1379"
+    ],
+    "is_low_carbon_mix": false
+  },
+  "declared_unit": {
+    "unit": "1 cubic meter",
+    "mass_kg": 2388,
+    "a1_a3_specific_data_pct": 98.9
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "declared",
+        "value": 254
+      },
+      "A2": {
+        "status": "declared",
+        "value": 26.3
+      },
+      "A3": {
+        "status": "declared",
+        "value": 4.07
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 284
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.19
+      },
+      "A5": {
+        "status": "declared",
+        "value": 16.7
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.54
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.9
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.31
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.47
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.4
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "declared",
+        "value": 254
+      },
+      "A2": {
+        "status": "declared",
+        "value": 26.3
+      },
+      "A3": {
+        "status": "declared",
+        "value": 4.07
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 284
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.18
+      },
+      "A5": {
+        "status": "declared",
+        "value": 16.7
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.54
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.9
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.31
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.47
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.4
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "declared",
+        "value": -0.0388
+      },
+      "A2": {
+        "status": "declared",
+        "value": 0.0102
+      },
+      "A3": {
+        "status": "declared",
+        "value": 0.000474
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": -0.0281
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.000495
+      },
+      "A5": {
+        "status": "declared",
+        "value": -0.0000533
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000464
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00291
+      },
+      "C3": {
+        "status": "declared",
+        "value": -0.000746
+      },
+      "C4": {
+        "status": "declared",
+        "value": -0.00142
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.042
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 284,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "This EPD uses EPD Hub Core PCR version 1.2 (2025), which may differ from other PCR versions such as PCR 2019:14 used by EPD Australasia or other program operators. Scope includes A4, A5, C1-C4 and D in addition to A1-A3, so total lifecycle figures are broader than cradle-to-gate only EPDs. B1-B7 (use stage) are not declared. The product is specific to the Airlie Beach plant only (no grouping). Data period is 1 July 2024 to 30 June 2025."
+  }
+}

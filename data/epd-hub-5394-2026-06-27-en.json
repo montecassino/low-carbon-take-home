@@ -1,0 +1,272 @@
+{
+  "source": {
+    "file_name": "EPD_HUB-5394_2026-06-27_en.pdf",
+    "epd_registration_number": "HUB-5394",
+    "program_operator": "EPD Hub",
+    "pcr": "EPD Hub Core PCR version 1.2, 24 Mar 2025",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "publication_date": "2026-02-15",
+    "valid_until": "2031-02-14",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle to gate with options, A4-A5, and modules C1-C4, D",
+    "impact_table_page_refs": "page 9"
+  },
+  "manufacturer": {
+    "name": "Tandy Concrete",
+    "plant_address": "21 Mackay Slade Point Road",
+    "plant_city": "Mackay",
+    "plant_state": "Queensland",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "AN3220100Enhanced",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 32,
+    "compressive_strength_class": "N32",
+    "strength_age_days": 28,
+    "exposure_class": "A2",
+    "application": "General concrete works",
+    "product_standards": [
+      "EN 206",
+      "AS1379:2007(2017)"
+    ],
+    "is_low_carbon_mix": false
+  },
+  "declared_unit": {
+    "unit": "1 cubic meter",
+    "mass_kg": 2352,
+    "a1_a3_specific_data_pct": 98.9
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "declared",
+        "value": 213
+      },
+      "A2": {
+        "status": "declared",
+        "value": 15.9
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.31
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 232
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.79
+      },
+      "A5": {
+        "status": "declared",
+        "value": 15.1
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.48
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.7
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.2
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.41
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.2
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "declared",
+        "value": 213
+      },
+      "A2": {
+        "status": "declared",
+        "value": 15.9
+      },
+      "A3": {
+        "status": "declared",
+        "value": 3.31
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 232
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.78
+      },
+      "A5": {
+        "status": "declared",
+        "value": 15.1
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.47
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.7
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.2
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.4
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.2
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "declared",
+        "value": -0.0271
+      },
+      "A2": {
+        "status": "declared",
+        "value": 0.00715
+      },
+      "A3": {
+        "status": "declared",
+        "value": 0.000366
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": -0.0196
+      },
+      "A4": {
+        "status": "declared",
+        "value": 0.000631
+      },
+      "A5": {
+        "status": "declared",
+        "value": 0.000206
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000457
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00287
+      },
+      "C3": {
+        "status": "declared",
+        "value": -0.000735
+      },
+      "C4": {
+        "status": "declared",
+        "value": -0.0014
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.0414
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 232,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": true,
+    "scope_covers_installation": true,
+    "comparability_notes": "EPD uses EPD Hub Core PCR version 1.2 (24 Mar 2025) which may differ from other PCR versions (e.g. EN 16757 cPCR). Scope covers A1-A3, A4, A5, C1-C4, and D. B1-B7 modules are not declared (ND). Carbonation is not taken into account. Data is product and factory specific — single plant in Mackay, Queensland, Australia. Data period is 1 July 2024 to 30 June 2025."
+  }
+}

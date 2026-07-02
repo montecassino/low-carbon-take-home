@@ -1,0 +1,271 @@
+{
+  "source": {
+    "file_name": "EPD_HUB-5210_2026-06-27_en.pdf",
+    "epd_registration_number": "HUB-5210",
+    "program_operator": "EPD Hub",
+    "pcr": "EPD Hub Core PCR version 1.2, 24 Mar 2025",
+    "reference_standard": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "publication_date": "2026-01-30",
+    "valid_until": "2031-01-29",
+    "geographical_scope": "Australia",
+    "verification": "external",
+    "scope_description": "Cradle-to-gate (A1-A3) with modules C1-4, D",
+    "impact_table_page_refs": "pages 13-14"
+  },
+  "manufacturer": {
+    "name": "Boral Limited",
+    "plant_address": "Melbourne South-East",
+    "plant_city": "Melbourne",
+    "plant_state": "VIC",
+    "plant_country": "Australia"
+  },
+  "product": {
+    "name": "Envirocrete® 40% 32MPa",
+    "concrete_type": "Ready-mix concrete",
+    "compressive_strength_mpa": 32,
+    "compressive_strength_class": "32 MPa",
+    "strength_age_days": 28,
+    "exposure_class": null,
+    "application": "General applications where high-performance concrete is not required. Suitable for houses, commercial buildings, multi-residential buildings, high-rise buildings, civil projects, and infrastructure projects.",
+    "product_standards": [
+      "AS 1379 Specification and supply of concrete"
+    ],
+    "is_low_carbon_mix": true
+  },
+  "declared_unit": {
+    "unit": "1 cubic metre",
+    "mass_kg": 2225,
+    "a1_a3_specific_data_pct": 98.1
+  },
+  "carbon": {
+    "gwp_total": {
+      "A1": {
+        "status": "declared",
+        "value": 255
+      },
+      "A2": {
+        "status": "declared",
+        "value": 13.8
+      },
+      "A3": {
+        "status": "declared",
+        "value": 5.97
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 275
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.23
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12
+      },
+      "C3": {
+        "status": "declared",
+        "value": 6.82
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.17
+      },
+      "D": {
+        "status": "declared",
+        "value": -12.2
+      }
+    },
+    "gwp_fossil": {
+      "A1": {
+        "status": "declared",
+        "value": 255
+      },
+      "A2": {
+        "status": "declared",
+        "value": 13.8
+      },
+      "A3": {
+        "status": "declared",
+        "value": 5.97
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 274
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.23
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12
+      },
+      "C3": {
+        "status": "declared",
+        "value": 6.82
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.17
+      },
+      "D": {
+        "status": "declared",
+        "value": -12.1
+      }
+    },
+    "gwp_biogenic": {
+      "A1": {
+        "status": "declared",
+        "value": 0.129
+      },
+      "A2": {
+        "status": "declared",
+        "value": 0.0258
+      },
+      "A3": {
+        "status": "declared",
+        "value": 0.000834
+      },
+      "A1A3": {
+        "status": "declared",
+        "value": 0.156
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.000432
+      },
+      "C2": {
+        "status": "declared",
+        "value": 0.00271
+      },
+      "C3": {
+        "status": "declared",
+        "value": -0.000695
+      },
+      "C4": {
+        "status": "declared",
+        "value": -0.00133
+      },
+      "D": {
+        "status": "declared",
+        "value": -0.038
+      }
+    }
+  },
+  "summary": {
+    "headline_gwp_total_a1_a3": 275,
+    "scope_covers_end_of_life": true,
+    "scope_covers_transport_to_site": false,
+    "scope_covers_installation": false,
+    "comparability_notes": "This EPD uses EPD Hub Core PCR version 1.2 (2025), which may differ from other programs (e.g., EPD Australasia PCR 2019:14). Scope is cradle-to-gate (A1-A3) with end-of-life modules C1-C4 and D; A4 and A5 are not declared. Results represent an average across 7 manufacturing sites in the Melbourne South-East metropolitan region (Cranbourne, Clayton, Dandenong, Healesville, Montrose, Nunawading, Pakenham), grouped by production volume. Data period is FY25. EPDs from different programs may not be directly comparable."
+  }
+}

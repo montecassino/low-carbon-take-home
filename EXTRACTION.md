@@ -1,0 +1,37 @@
+# Extraction Strategy
+
+## Overall strategy
+
+The goal was to turn 20 varied EPD PDFs into a single, consistent JSON schema without writing a single regex or format-specific parser — because the PDFs don't share a layout and any heuristic-based approach breaks the moment a new supplier is added.
+
+The approach: send each PDF directly to Claude Sonnet 4.6 as a native document (base64) and force a structured response via Claude's tool-use API. The tool schema acts as the contract — the model cannot return freeform text, only a JSON object that matches every field definition. This means the schema drives correctness, not the prompt.
+
+The schema was designed around the EPD data model, not around any particular PDF layout. Every GWP module (A1 through D) carries a `status` field: `declared`, `not_declared`, `not_relevant`, or `not_separately_reported`. The value is `null` unless status is `declared`. This makes it structurally impossible for a "Not Declared" stage to silently become zero in the application.
+
+## Model and architecture
+
+**Claude Sonnet 4.6** was chosen for three reasons:
+
+1. Native PDF support — the model reads the PDF as a document block, seeing both the text and visual layout of tables. This is critical for EPDs, where the core data lives in multi-column tables with merged headers and scientific notation.
+2. Tool/function calling with `tool_choice: "any"` — this forces a structured response and prevents the model from hedging in prose. The JSON schema is the spec.
+3. Cost — at $3/$15 per million tokens and ~7,000 tokens per 3-page PDF, the full 20-document run costs approximately $2. No chunking, no OCR pipeline, no secondary model needed.
+
+The extraction is a single Node.js script (`extraction/extract.ts`) run once before deployment. The output `data/*.json` files are committed to the repo and read by the Next.js app at build time — no runtime API dependency.
+
+## Accuracy
+
+The two main failure modes are: the model invents a value, or it misreads scientific notation.
+
+Mitigations:
+- **Schema-validated output**: Zod validates every JSON response. Invalid shapes fail loud and write a `.raw.json` for inspection rather than silently passing bad data.
+- **A1+A2+A3 = A1-A3 sanity check**: when all three individual stages are declared, the script verifies their sum is within 2% of the aggregate A1-A3 value. Differences are logged as warnings for manual review.
+- **ND provenance preserved**: the model is explicitly instructed that "ND is not zero" and that `not_separately_reported` must be used for A1/A2/A3 when only an A1-A3 aggregate is given. The app renders these states distinctly — never as zero.
+- **Spot-check**: after extraction, three EPDs (one EPD Hub, one EPD Australasia, one IES) were manually verified by reading the source PDF and comparing values field-by-field.
+
+## Research and process
+
+The two EPD formats present in the dataset are structurally different: EPD Hub EPDs expose individual A1, A2, A3 columns; EPD Australasia / International EPD System EPDs show only the combined A1-A3. Both appear in the 20 PDFs. Trying to normalise these with regex or table parsers would require two separate parsers and would still break on unusual layouts. A pure-LLM approach handles both with a single prompt by instructing the model explicitly about both patterns.
+
+One decision worth noting: the schema includes `gwp_biogenic` even though it's near-zero for concrete. This is intentional — silently dropping it would be the same kind of quiet omission the app is designed to expose in EPDs themselves.
+
+The `comparability_notes` field in the schema captures structural differences the model flags during extraction — different PCR versions, grouped products covering multiple plants, different reference years. These surface as banners in the product detail view.
