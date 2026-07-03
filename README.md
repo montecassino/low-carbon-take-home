@@ -138,7 +138,6 @@ An active (coloured) pill means covered. A grey pill means not reported in that 
   LifeCycleChart.tsx      CSS bar chart of GWP by life-cycle stage
   ImpactCalculator.tsx    Interactive project-size carbon calculator
   OutcomeCards.tsx        Plain-English outcome description cards
-  GwpBadge.tsx            ND / NR / declared value display
   ScopeIcons.tsx          A1-A3 / A4 / A5 / C+D coverage pills
 /public/epd/              PDF copies for local provenance links (gitignored — not pushed)
 EXTRACTION.md             Written reasoning about the extraction strategy

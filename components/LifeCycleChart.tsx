@@ -93,7 +93,6 @@ export function LifeCycleChart({ breakdown, title }: Props) {
               <div className="w-24 text-right text-xs text-gray-700">
                 {value !== null ? (
                   <span className={isNegative ? "text-green-700 font-medium" : ""}>
-                    {value >= 0 ? "" : ""}
                     {value.toFixed(2)}{" "}
                     <span className="text-gray-400">kg CO₂e</span>
                   </span>

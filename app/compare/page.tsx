@@ -5,9 +5,8 @@ import { generateRecommendation } from "@/lib/recommendation";
 import { ScopeIcons } from "@/components/ScopeIcons";
 import { ImpactCalculator } from "@/components/ImpactCalculator";
 import type { EPD } from "@/extraction/schema";
-import type { GWPBreakdown } from "@/lib/types";
 
-type Module = keyof GWPBreakdown;
+type Module = keyof EPD["carbon"]["gwp_total"];
 
 const KEY_MODULES: Array<{ key: Module; label: string }> = [
   { key: "A1A3", label: "A1–A3 Manufacturing" },
@@ -47,7 +46,7 @@ export default async function ComparePage({
       </div>
 
       {/* Recommendation verdict */}
-      <VerdictCard rec={rec} epdA={epdA} epdB={epdB} labelA={labelA} labelB={labelB} />
+      <VerdictCard rec={rec} />
 
       {/* Impact calculator */}
       <ImpactCalculator
@@ -142,21 +141,11 @@ export default async function ComparePage({
 
 function VerdictCard({
   rec,
-  epdA,
-  epdB,
-  labelA,
-  labelB,
 }: {
   rec: ReturnType<typeof generateRecommendation>;
-  epdA: EPD;
-  epdB: EPD;
-  labelA: string;
-  labelB: string;
 }) {
   const bgClass =
-    rec.verdict === "a_wins"
-      ? "bg-green-50 border-green-200"
-      : rec.verdict === "b_wins"
+    rec.verdict === "a_wins" || rec.verdict === "b_wins"
       ? "bg-green-50 border-green-200"
       : rec.verdict === "tie"
       ? "bg-blue-50 border-blue-200"
